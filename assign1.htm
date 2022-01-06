@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Docunment</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+.main-wrapper img{
+    max-width:100%;
+    width:100%;
+    max-height:500px;
+    object-fit:cover;
+}
+.main-wrapper{
+    position:relative;
+      
+
+
+}
+.main-content{
+   position:absolute;
+   left:50%;
+   top:40%;
+   border-radius:10px;
+   padding:10px;
+   transform:translate(-50%,-50%);
+   background:white;
+   border:2px solid black;
+  
+
+
+}
+
+
+h1{
+    color:black;
+    font-size:30px;
+   
+    
+}
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  
+}
+ 
+
+input[type=text], select, textarea,input[type=submit] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin:10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+   
+.testimonial-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.monial-item{
+    width:390px;
+}
+.Tourism-image{
+    width:250px;
+    height:120px;
+}
+.monial-item .description{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+.testimonial-container .monial-item{
+    margin-right:10px;
+}
+.button1{
+  background-color:blue;
+  color:whitesmoke;
+  margin-bottom:10px;
+  border-radius:10px;
+  
+}
+
+</style>
+<body>
+    
+    <div class="main-wrapper">
+       <img src="D:\assignments1\river.jpg"  alt="river" />
+        <div class="main-content">
+          <form class="contact-form">
+            <h1>Contact us</h1>  
+           <label> Name</label>
+           <input type="text" placeholder="Enter Your Name">
+           <label >Email</label></td>
+          <input type="text"  placeholder="Enter Your Email">
+          <label  >Subject</label>
+        <textarea placeholder="Write something.." style="height:50px"></textarea>
+        <input type="submit">
+        </form>
+</div>
+</div>
+
+
+<section>
+  <h1>Testimonial</h1>
+  <section class="testimonial-container">
+      <div class="monial-item">
+          <img src="D:\assignments1\india-top-attractions-jaisalmer.jpg" class="Tourism-image" alt="jaisalmer">
+          <p class="description" title="So named for the yellow sandstone used in most of its buildings, the Golden City of Jaisalmer is an oasis of splendid old architecture that rises from the sand dunes of the Thar Desert. Once a strategic outpost, today the city is filled with splendid old mansions; magnificent gateways; and the massive Jaisalmer Fort, also known as the Golden Fort, a daunting 12th-century structure that rises high above the town." ><b>Jaisalmer</b><br>
+            So named for the yellow sandstone used in most of its buildings, the Golden City of Jaisalmer is an oasis of splendid old architecture that rises from the sand dunes of the Thar Desert. Once a strategic outpost, today the city is filled with splendid old mansions; magnificent gateways; and the massive Jaisalmer Fort, also known as the Golden Fort, a daunting 12th-century structure that rises high above the town.</p>
+         <button class="button1">Read More</button>
+
+          </div>
+       <div class="monial-item">
+          <img src="D:\assignments1\india-top-attractions-red-fort.jpg" class="Tourism-image" alt="red-fort">
+          <p class="description" title="Built by Shah Jahan in 1648 as the seat of Mughal power – a role it maintained until 1857 – the magnificent crescent-shaped Red Fort in New Delhi, named after the stunning red sandstone used in its construction, covers a vast area of more than two square kilometers, all of it surrounded by a large moat."><b>Red-fort</b><br>Built by Shah Jahan in 1648 as the seat of Mughal power – a role it maintained until 1857 – the magnificent crescent-shaped Red Fort in New Delhi, named after the stunning red sandstone used in its construction, covers a vast area of more than two square kilometers, all of it surrounded by a large moat.</p>
+          <button class="button1">Read More</button>
+      </div>
+      <div class="monial-item">
+          <img src="india-top-attractions-gateway-india.jpg" class="Tourism-image" alt="gateway">
+          <p class="description" title="Standing an impressive 26 meters tall and overlooking the Arabian Sea, the iconic Gateway of India is a must-see when in Mumbai. Built to commemorate the arrival of King George V and his wife Queen Mary in 1911, this stunning piece of architecture was opened with much pomp and ceremony in 1924 and was, for a while, the tallest structure in the city."><b>Gateway</b><br>Standing an impressive 26 meters tall and overlooking the Arabian Sea, the iconic Gateway of India is a must-see when in Mumbai. Built to commemorate the arrival of King George V and his wife Queen Mary in 1911, this stunning piece of architecture was opened with much pomp and ceremony in 1924 and was, for a while, the tallest structure in the city.</p>
+          <button class="button1">Read More</button>
+      </div>
+      <div class="monial-item">
+          <img src="D:\assignments1\india-top-attractions-mecca-masjid.jpg" class="Tourism-image" alt="masjid">
+          <p class="description" title="Construction of Hyderabad's Mecca Masjid, one of the world's largest mosques – and one of the oldest in India – began in 1614 during Mohammed Quli Qutub Shah's reign and took almost 80 years to complete."><b>Mecca-Masjid</b><br>Construction of Hyderabad's Mecca Masjid, one of the world's largest mosques – and one of the oldest in India – began in 1614 during Mohammed Quli Qutub Shah's reign and took almost 80 years to complete.</p>
+          <button class="button1">Read More</button>
+      </div>
+      <div class="monial-item">
+          <img src="D:\assignments1\india-top-attractions-amer-fort.jpg" class="Tourism-image" alt="fort">
+          <p class="description" title="Amer Fort often also spelt Amber was built as a fortified palace in 1592 by Maharaja Man Singh I and has long served as the capital of Jaipur. Carved high up into the hillside, the fort is accessible on foot via a steep climb or by shuttle rides from the town below (better still, let an elephant do the work)."><b>Amer-Fort</b><br>Amer Fort often also spelt "Amber" was built as a fortified palace in 1592 by Maharaja Man Singh I and has long served as the capital of Jaipur. Carved high up into the hillside, the fort is accessible on foot via a steep climb or by shuttle rides from the town below (better still, let an elephant do the work).</p>
+          <button class="button1">Read More</button>
+      </div>
+      <div class="monial-item">
+          <img src="D:\assignments1\india-top-attractions-goa-beaches.jpg" class="Tourism-image" alt="goa">
+          <p class="description" title="Long known within India as the go-to destination for those seeking a great beach holiday, Goa's beautiful western coastline, overlooking the Arabian Sea, has only recently been discovered by tourists from overseas. Goa's more than 60 miles of coastline is home to some of the world's loveliest beaches, each with their own particular appeal. "><b>Goa-Beaches</b><br>Long known within India as the "go-to" destination for those seeking a great beach holiday, Goa's beautiful western coastline, overlooking the Arabian Sea, has only recently been discovered by tourists from overseas. Goa's more than 60 miles of coastline is home to some of the world's loveliest beaches, each with their own particular appeal. </p>
+          <button class="button1">Read More</button>
+      </div>
+  </section>
+  </section>
+
+
+
+
+
+
+    </body>
+    </html>
