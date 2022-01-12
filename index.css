@@ -1,0 +1,39 @@
+
+body {
+    padding: 10px;
+}
+.label5 {
+    text-align: right;
+    
+}
+.table-style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.table {
+    border-spacing: 0.8rem;
+    font-family: Montserrat-regular;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.input5 {
+    background-color: lightgoldenrodyellow;
+    border: 0.1rem solid #222;
+    outline: 0px;
+}
+.form-text {
+    background-color: orange;
+    color: #ffffff;
+    padding: 0.5rem;
+    border: 0.1rem solid #222;
+    font-family: Montserrat-regular;
+}
+.table-row {
+    margin: 20px;
+
+}
